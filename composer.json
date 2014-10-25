@@ -1,0 +1,22 @@
+{
+    "name": "wijbe/project",
+    "description" : "Wijbe Project",
+    "keywords": [ "wijbe", "php", "framework" ],
+    "license": "MIT",
+  	"repositories": [
+    	{
+    		"type": "vcs",
+    		"url": "https://github.com/wijbe/system"
+    	}
+  	],
+    "require": {
+      "wijbe/system" : "dev-master"
+    },
+    "autoload": {
+  		"classmap": [
+  			"application/controllers",
+  			"application/models"
+  		]
+  	},
+    "minimum-stability": "stable"
+}
