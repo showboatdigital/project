@@ -9,4 +9,4 @@
 |
 */
 
-include( __DIR__ . '/../system/boot.php' );
+require __DIR__ . '/../boot.php';
