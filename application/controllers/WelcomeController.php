@@ -19,6 +19,7 @@ class WelcomeController {
 
   public function getIndex()
   {
+
     $data = array(
      'title' => 'Welcome!',
     );
